@@ -19,7 +19,8 @@ import codecs
 import re
 from os import path
 
-from distutils.core import setup
+# from distutils.core import setup
+from setuptools import setup
 
 init_path = path.join(path.dirname(__file__), 'cairosvg', '__init__.py')
 with codecs.open(init_path, 'r', 'utf-8') as fd:
